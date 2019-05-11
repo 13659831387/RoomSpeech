@@ -90,7 +90,7 @@ def getText(filename):
     token = getToken()
     data = {}
     data['format'] = 'wav'
-    data['rate'] = 16000
+    data['rate'] = 8000
     data['channel'] = 1
     data['cuid'] = str(random.randrange(123456, 999999))
     data['token'] = token
